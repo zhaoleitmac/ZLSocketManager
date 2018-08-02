@@ -1,0 +1,2 @@
+# ZLSocketManager
+该示例是基于Protobuf数据协议的利用链式语法对CocoaAsyncSocket进行的二次封装。
