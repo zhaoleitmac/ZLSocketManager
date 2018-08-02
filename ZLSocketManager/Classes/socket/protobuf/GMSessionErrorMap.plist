@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>200</key>
+	<string></string>
+	<key>65570</key>
+	<string>登录已失效</string>
+	<key>65571</key>
+	<string>协议版本不兼容</string>
+	<key>65585</key>
+	<string>账号不存在</string>
+	<key>65586</key>
+	<string>密码错误</string>
+</dict>
+</plist>

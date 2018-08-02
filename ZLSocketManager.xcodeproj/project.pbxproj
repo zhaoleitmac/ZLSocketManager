@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		117C3E0459202056E220672C /* Pods_ZLSocketManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFB4D4296372AEAECE1EDD61 /* Pods_ZLSocketManager.framework */; };
+		4443922C2113077C00107264 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 444392242113077C00107264 /* ViewController.m */; };
+		4443922D2113077C00107264 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 444392252113077C00107264 /* main.m */; };
+		4443922E2113077C00107264 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 444392262113077C00107264 /* AppDelegate.m */; };
+		4443922F2113077C00107264 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 444392292113077C00107264 /* LaunchScreen.storyboard */; };
+		444392302113077C00107264 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4443922A2113077C00107264 /* Assets.xcassets */; };
+		444392312113077C00107264 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4443922B2113077C00107264 /* Main.storyboard */; };
+		4443927F211309CF00107264 /* GMUDPSocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 44439261211309CF00107264 /* GMUDPSocketManager.m */; };
+		44439280211309CF00107264 /* GMSocketSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 44439262211309CF00107264 /* GMSocketSessionManager.m */; };
+		44439281211309CF00107264 /* GMSocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 44439266211309CF00107264 /* GMSocketManager.m */; };
+		44439282211309CF00107264 /* GMSocketConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 44439268211309CF00107264 /* GMSocketConnection.m */; };
+		44439283211309CF00107264 /* GMSocketTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 4443926C211309CF00107264 /* GMSocketTask.m */; };
+		44439284211309CF00107264 /* GMSocketConnect.m in Sources */ = {isa = PBXBuildFile; fileRef = 4443926D211309CF00107264 /* GMSocketConnect.m */; };
+		44439285211309CF00107264 /* GMSocketSessionBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 44439270211309CF00107264 /* GMSocketSessionBody.m */; };
+		44439286211309CF00107264 /* GMSocketSessionHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 44439271211309CF00107264 /* GMSocketSessionHeader.m */; };
+		44439287211309CF00107264 /* GMSocketSessionMsg.m in Sources */ = {isa = PBXBuildFile; fileRef = 44439273211309CF00107264 /* GMSocketSessionMsg.m */; };
+		44439288211309CF00107264 /* GMSocketUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 44439276211309CF00107264 /* GMSocketUtil.m */; };
+		44439289211309CF00107264 /* PBMessageInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 44439279211309CF00107264 /* PBMessageInfo.plist */; };
+		4443928A211309CF00107264 /* GMSessionError.m in Sources */ = {isa = PBXBuildFile; fileRef = 4443927A211309CF00107264 /* GMSessionError.m */; };
+		4443928B211309CF00107264 /* GMProtoBufSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 4443927B211309CF00107264 /* GMProtoBufSession.m */; };
+		4443928C211309CF00107264 /* GMSessionErrorMap.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4443927C211309CF00107264 /* GMSessionErrorMap.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03B998F7F85B38DC67EABA4B /* Pods-ZLSocketManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLSocketManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZLSocketManager/Pods-ZLSocketManager.release.xcconfig"; sourceTree = "<group>"; };
+		444392082113019800107264 /* ZLSocketManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLSocketManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		444392192113019900107264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		444392232113077C00107264 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		444392242113077C00107264 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		444392252113077C00107264 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		444392262113077C00107264 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		444392272113077C00107264 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		444392292113077C00107264 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4443922A2113077C00107264 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4443922B2113077C00107264 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		44439261211309CF00107264 /* GMUDPSocketManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMUDPSocketManager.m; sourceTree = "<group>"; };
+		44439262211309CF00107264 /* GMSocketSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMSocketSessionManager.m; sourceTree = "<group>"; };
+		44439263211309CF00107264 /* GMSocketManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSocketManager.h; sourceTree = "<group>"; };
+		44439264211309CF00107264 /* GMSocketConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSocketConnection.h; sourceTree = "<group>"; };
+		44439265211309CF00107264 /* GMUDPSocketManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUDPSocketManager.h; sourceTree = "<group>"; };
+		44439266211309CF00107264 /* GMSocketManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMSocketManager.m; sourceTree = "<group>"; };
+		44439267211309CF00107264 /* GMSocketSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSocketSessionManager.h; sourceTree = "<group>"; };
+		44439268211309CF00107264 /* GMSocketConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMSocketConnection.m; sourceTree = "<group>"; };
+		4443926A211309CF00107264 /* GMSocketTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSocketTask.h; sourceTree = "<group>"; };
+		4443926B211309CF00107264 /* GMSocketConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSocketConnect.h; sourceTree = "<group>"; };
+		4443926C211309CF00107264 /* GMSocketTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMSocketTask.m; sourceTree = "<group>"; };
+		4443926D211309CF00107264 /* GMSocketConnect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMSocketConnect.m; sourceTree = "<group>"; };
+		4443926F211309CF00107264 /* GMSocketSessionMsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSocketSessionMsg.h; sourceTree = "<group>"; };
+		44439270211309CF00107264 /* GMSocketSessionBody.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMSocketSessionBody.m; sourceTree = "<group>"; };
+		44439271211309CF00107264 /* GMSocketSessionHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMSocketSessionHeader.m; sourceTree = "<group>"; };
+		44439272211309CF00107264 /* GMSocketSessionBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSocketSessionBody.h; sourceTree = "<group>"; };
+		44439273211309CF00107264 /* GMSocketSessionMsg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMSocketSessionMsg.m; sourceTree = "<group>"; };
+		44439274211309CF00107264 /* GMSocketSessionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSocketSessionHeader.h; sourceTree = "<group>"; };
+		44439276211309CF00107264 /* GMSocketUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMSocketUtil.m; sourceTree = "<group>"; };
+		44439277211309CF00107264 /* GMSocketUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSocketUtil.h; sourceTree = "<group>"; };
+		44439279211309CF00107264 /* PBMessageInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PBMessageInfo.plist; sourceTree = "<group>"; };
+		4443927A211309CF00107264 /* GMSessionError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMSessionError.m; sourceTree = "<group>"; };
+		4443927B211309CF00107264 /* GMProtoBufSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMProtoBufSession.m; sourceTree = "<group>"; };
+		4443927C211309CF00107264 /* GMSessionErrorMap.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GMSessionErrorMap.plist; sourceTree = "<group>"; };
+		4443927D211309CF00107264 /* GMProtoBufSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMProtoBufSession.h; sourceTree = "<group>"; };
+		4443927E211309CF00107264 /* GMSessionError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSessionError.h; sourceTree = "<group>"; };
+		4443928E21130B0C00107264 /* SMEnums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMEnums.h; sourceTree = "<group>"; };
+		4443928F21130B0C00107264 /* SMConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMConstant.h; sourceTree = "<group>"; };
+		4443929021130B0C00107264 /* SMLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMLog.h; sourceTree = "<group>"; };
+		C1B078403371237317BFF636 /* Pods-ZLSocketManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLSocketManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZLSocketManager/Pods-ZLSocketManager.debug.xcconfig"; sourceTree = "<group>"; };
+		CFB4D4296372AEAECE1EDD61 /* Pods_ZLSocketManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZLSocketManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		444392052113019800107264 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				117C3E0459202056E220672C /* Pods_ZLSocketManager.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D34C49D0B25033434932D67 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1B078403371237317BFF636 /* Pods-ZLSocketManager.debug.xcconfig */,
+				03B998F7F85B38DC67EABA4B /* Pods-ZLSocketManager.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		444391FF2113019800107264 = {
+			isa = PBXGroup;
+			children = (
+				4443920A2113019800107264 /* ZLSocketManager */,
+				444392092113019800107264 /* Products */,
+				0D34C49D0B25033434932D67 /* Pods */,
+				98C0BC9E89DCF7A37D18BF7E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		444392092113019800107264 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				444392082113019800107264 /* ZLSocketManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4443920A2113019800107264 /* ZLSocketManager */ = {
+			isa = PBXGroup;
+			children = (
+				444392212113077C00107264 /* Classes */,
+				444392282113077C00107264 /* Resources */,
+				444392192113019900107264 /* Info.plist */,
+			);
+			path = ZLSocketManager;
+			sourceTree = "<group>";
+		};
+		444392212113077C00107264 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				444392222113077C00107264 /* other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		444392222113077C00107264 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				4443925F211309CF00107264 /* socket */,
+				444392232113077C00107264 /* AppDelegate.h */,
+				444392262113077C00107264 /* AppDelegate.m */,
+				444392242113077C00107264 /* ViewController.m */,
+				444392272113077C00107264 /* ViewController.h */,
+				444392252113077C00107264 /* main.m */,
+			);
+			path = other;
+			sourceTree = "<group>";
+		};
+		444392282113077C00107264 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				444392292113077C00107264 /* LaunchScreen.storyboard */,
+				4443922A2113077C00107264 /* Assets.xcassets */,
+				4443922B2113077C00107264 /* Main.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4443925F211309CF00107264 /* socket */ = {
+			isa = PBXGroup;
+			children = (
+				4443928D21130B0C00107264 /* constant */,
+				44439260211309CF00107264 /* manager */,
+				44439269211309CF00107264 /* task */,
+				4443926E211309CF00107264 /* model */,
+				44439275211309CF00107264 /* uitil */,
+				44439278211309CF00107264 /* protobuf */,
+			);
+			name = socket;
+			path = ZLSocketManager/Classes/socket;
+			sourceTree = SOURCE_ROOT;
+		};
+		44439260211309CF00107264 /* manager */ = {
+			isa = PBXGroup;
+			children = (
+				44439263211309CF00107264 /* GMSocketManager.h */,
+				44439266211309CF00107264 /* GMSocketManager.m */,
+				44439265211309CF00107264 /* GMUDPSocketManager.h */,
+				44439261211309CF00107264 /* GMUDPSocketManager.m */,
+				44439267211309CF00107264 /* GMSocketSessionManager.h */,
+				44439262211309CF00107264 /* GMSocketSessionManager.m */,
+				44439264211309CF00107264 /* GMSocketConnection.h */,
+				44439268211309CF00107264 /* GMSocketConnection.m */,
+			);
+			path = manager;
+			sourceTree = "<group>";
+		};
+		44439269211309CF00107264 /* task */ = {
+			isa = PBXGroup;
+			children = (
+				4443926A211309CF00107264 /* GMSocketTask.h */,
+				4443926C211309CF00107264 /* GMSocketTask.m */,
+				4443926B211309CF00107264 /* GMSocketConnect.h */,
+				4443926D211309CF00107264 /* GMSocketConnect.m */,
+			);
+			path = task;
+			sourceTree = "<group>";
+		};
+		4443926E211309CF00107264 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				4443926F211309CF00107264 /* GMSocketSessionMsg.h */,
+				44439273211309CF00107264 /* GMSocketSessionMsg.m */,
+				44439271211309CF00107264 /* GMSocketSessionHeader.m */,
+				44439274211309CF00107264 /* GMSocketSessionHeader.h */,
+				44439272211309CF00107264 /* GMSocketSessionBody.h */,
+				44439270211309CF00107264 /* GMSocketSessionBody.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		44439275211309CF00107264 /* uitil */ = {
+			isa = PBXGroup;
+			children = (
+				44439277211309CF00107264 /* GMSocketUtil.h */,
+				44439276211309CF00107264 /* GMSocketUtil.m */,
+			);
+			path = uitil;
+			sourceTree = "<group>";
+		};
+		44439278211309CF00107264 /* protobuf */ = {
+			isa = PBXGroup;
+			children = (
+				44439279211309CF00107264 /* PBMessageInfo.plist */,
+				4443927E211309CF00107264 /* GMSessionError.h */,
+				4443927A211309CF00107264 /* GMSessionError.m */,
+				4443927D211309CF00107264 /* GMProtoBufSession.h */,
+				4443927B211309CF00107264 /* GMProtoBufSession.m */,
+				4443927C211309CF00107264 /* GMSessionErrorMap.plist */,
+			);
+			path = protobuf;
+			sourceTree = "<group>";
+		};
+		4443928D21130B0C00107264 /* constant */ = {
+			isa = PBXGroup;
+			children = (
+				4443928E21130B0C00107264 /* SMEnums.h */,
+				4443928F21130B0C00107264 /* SMConstant.h */,
+				4443929021130B0C00107264 /* SMLog.h */,
+			);
+			path = constant;
+			sourceTree = "<group>";
+		};
+		98C0BC9E89DCF7A37D18BF7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFB4D4296372AEAECE1EDD61 /* Pods_ZLSocketManager.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		444392072113019800107264 /* ZLSocketManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4443921E2113019900107264 /* Build configuration list for PBXNativeTarget "ZLSocketManager" */;
+			buildPhases = (
+				4BCB83806802904A1FFC321D /* [CP] Check Pods Manifest.lock */,
+				444392042113019800107264 /* Sources */,
+				444392052113019800107264 /* Frameworks */,
+				444392062113019800107264 /* Resources */,
+				3464648009D868E312CB3A01 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZLSocketManager;
+			productName = ZLSocketManager;
+			productReference = 444392082113019800107264 /* ZLSocketManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		444392002113019800107264 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "赵雷";
+				TargetAttributes = {
+					444392072113019800107264 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 444392032113019800107264 /* Build configuration list for PBXProject "ZLSocketManager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 444391FF2113019800107264;
+			productRefGroup = 444392092113019800107264 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				444392072113019800107264 /* ZLSocketManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		444392062113019800107264 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44439289211309CF00107264 /* PBMessageInfo.plist in Resources */,
+				4443928C211309CF00107264 /* GMSessionErrorMap.plist in Resources */,
+				444392312113077C00107264 /* Main.storyboard in Resources */,
+				444392302113077C00107264 /* Assets.xcassets in Resources */,
+				4443922F2113077C00107264 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3464648009D868E312CB3A01 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ZLSocketManager/Pods-ZLSocketManager-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZLSocketManager/Pods-ZLSocketManager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4BCB83806802904A1FFC321D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZLSocketManager-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		444392042113019800107264 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4443927F211309CF00107264 /* GMUDPSocketManager.m in Sources */,
+				44439283211309CF00107264 /* GMSocketTask.m in Sources */,
+				44439284211309CF00107264 /* GMSocketConnect.m in Sources */,
+				4443922D2113077C00107264 /* main.m in Sources */,
+				44439281211309CF00107264 /* GMSocketManager.m in Sources */,
+				4443928A211309CF00107264 /* GMSessionError.m in Sources */,
+				4443928B211309CF00107264 /* GMProtoBufSession.m in Sources */,
+				44439285211309CF00107264 /* GMSocketSessionBody.m in Sources */,
+				44439280211309CF00107264 /* GMSocketSessionManager.m in Sources */,
+				44439287211309CF00107264 /* GMSocketSessionMsg.m in Sources */,
+				4443922C2113077C00107264 /* ViewController.m in Sources */,
+				44439286211309CF00107264 /* GMSocketSessionHeader.m in Sources */,
+				44439282211309CF00107264 /* GMSocketConnection.m in Sources */,
+				4443922E2113077C00107264 /* AppDelegate.m in Sources */,
+				44439288211309CF00107264 /* GMSocketUtil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4443921C2113019900107264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4443921D2113019900107264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4443921F2113019900107264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1B078403371237317BFF636 /* Pods-ZLSocketManager.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZLSocketManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zlfw.ZLSocketManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		444392202113019900107264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03B998F7F85B38DC67EABA4B /* Pods-ZLSocketManager.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZLSocketManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zlfw.ZLSocketManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		444392032113019800107264 /* Build configuration list for PBXProject "ZLSocketManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4443921C2113019900107264 /* Debug */,
+				4443921D2113019900107264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4443921E2113019900107264 /* Build configuration list for PBXNativeTarget "ZLSocketManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4443921F2113019900107264 /* Debug */,
+				444392202113019900107264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 444392002113019800107264 /* Project object */;
+}

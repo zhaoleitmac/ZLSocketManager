@@ -1,0 +1,17 @@
+project 'ZLSocketManager.xcodeproj'
+
+# Uncomment the next line to define a global platform for your project
+platform :ios, '8.0'
+use_frameworks!
+
+
+targetsArray = ['ZLSocketManager']
+
+targetsArray.each do |t|
+    target t do
+        pod 'CocoaAsyncSocket'
+        pod 'Protobuf', '3.5.0'
+
+    end
+end
+

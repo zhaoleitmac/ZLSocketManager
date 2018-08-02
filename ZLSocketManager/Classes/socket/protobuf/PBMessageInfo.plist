@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>8201</key>
+	<dict>
+		<key>RESPONSE_MSG_TYPE</key>
+		<integer>2147491849</integer>
+		<key>responseClassName</key>
+		<string>CommonResp</string>
+		<key>REQUEST_MSG_TYPE</key>
+		<string>8201</string>
+	</dict>
+	<key>1</key>
+	<dict>
+		<key>REQUEST_MSG_TYPE</key>
+		<integer>1</integer>
+		<key>RESPONSE_MSG_TYPE</key>
+		<integer>2147483649</integer>
+		<key>responseClassName</key>
+		<string></string>
+	</dict>
+	<key>2</key>
+	<dict>
+		<key>REQUEST_MSG_TYPE</key>
+		<integer>2</integer>
+		<key>RESPONSE_MSG_TYPE</key>
+		<integer>2147483650</integer>
+		<key>responseClassName</key>
+		<string>ScanResp</string>
+	</dict>
+	<key>4098</key>
+	<dict>
+		<key>REQUEST_MSG_TYPE</key>
+		<integer>4098</integer>
+		<key>RESPONSE_MSG_TYPE</key>
+		<integer>2147487746</integer>
+		<key>responseClassName</key>
+		<string>ConnectResp</string>
+	</dict>
+	<key>4099</key>
+	<dict>
+		<key>REQUEST_MSG_TYPE</key>
+		<integer>4099</integer>
+		<key>RESPONSE_MSG_TYPE</key>
+		<integer>-1</integer>
+		<key>responseClassName</key>
+		<string></string>
+	</dict>
+	<key>4100</key>
+	<dict>
+		<key>REQUEST_MSG_TYPE</key>
+		<integer>4100</integer>
+		<key>RESPONSE_MSG_TYPE</key>
+		<integer>2147487748</integer>
+		<key>responseClassName</key>
+		<string>LoginResp</string>
+	</dict>
+</dict>
+</plist>
