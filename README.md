@@ -41,8 +41,10 @@ int MSG_TYPE = 1;
 ```
 
 ### MsgType
-MSG_TYPE是区分会话（接口）Type，例如登录、获取用户信息等。
-PBMessageInfo.plist中存有以MsgType为Key的Dictionary，Dictionary中RESPONSE_MSG_TYPE是服务端的回复Type(客户端暂无用)，responseClassName为回复消息的类名（GPBMessage的子类）。开发者需自己配置该文件，程序根据配置自动转出实例作为success回调参数，并调用success回调。
+MSG_TYPE是区分会话（接口）Type，例如登录、获取用户信息等。  
+PBMessageInfo.plist中存有以MsgType为Key的Dictionary，Dictionary中RESPONSE_MSG_TYPE是服务端的回复Type(客户端暂无用)，responseClassName为回复消息的类名（GPBMessage的子类）。  
+开发者需自己配置该文件，程序根据配置自动转出实例作为success回调参数，并调用success回调。
 ### ErrorCode的处理
-每个消息GPBMessage类都必须包含一个returnCode（名称可配置）成员变量（属性）。
-GMSessionErrorMap.plist保存所有的错误代码和其对应错误内容，开发者需自己配置该文件，程序根据配置自动识别错误作为error回调参数，并调用error回调。
+每个消息GPBMessage类都必须包含一个returnCode（名称可配置）成员变量（属性）。  
+GMSessionErrorMap.plist保存所有的错误code和其对应错误msg。  
+开发者需自己配置该文件，程序根据配置自动识别错误作为error回调参数，并调用error回调。
